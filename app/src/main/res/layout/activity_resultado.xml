@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fundoprincipal"
+    android:background="@drawable/resultadoposto"
     tools:context=".ResultActivity">
 
     <TextView
@@ -40,7 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Este aplicativo foi desenvolvido para ajudar você a calcular o consumo de combustível do seu veículo de maneira rápida e eficiente. Com base nas informações que você fornecer, o Fuel Calculator calculará o consumo médio em quilômetros por litro (km/l) do seu veículo, permitindo que você tenha uma ideia clara de quanto combustível está sendo gasto em cada viagem."
+        android:text="Este aplicativo foi desenvolvido para ajudar você a calcular o consumo de combustível do seu veículo de maneira rápida e eficiente. Com base nas informações que você fornecer, o OctanoTeck calculará o consumo médio em quilômetros por litro (km/l) do seu veículo, permitindo que você tenha uma ideia clara de quanto combustível está sendo gasto em cada viagem."
         android:textColor="@color/blue_03"
         android:textSize="15dp"
         android:textStyle="bold"
