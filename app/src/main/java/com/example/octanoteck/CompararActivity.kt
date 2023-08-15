@@ -2,6 +2,7 @@ package com.example.octanoteck
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
@@ -11,6 +12,10 @@ class CompararActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_comparar)
+        supportActionBar?.apply {
+            setHomeButtonEnabled(true)
+            setDisplayHomeAsUpEnabled(true)
+        }
 
         val editAlcool: EditText = findViewById(R.id.editAlcool)
         val editGasolina: EditText = findViewById(R.id.editGasolina)
@@ -33,6 +38,13 @@ class CompararActivity : AppCompatActivity() {
                 txtResultado.text = "Valores inválidos"
                 txtResultado.visibility = View.VISIBLE
             }
+
         }
+
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        finish()
+        return super.onOptionsItemSelected(item)
     }
 }
